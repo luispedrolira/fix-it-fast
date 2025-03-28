@@ -15,3 +15,7 @@ type Ticket struct {
 	Status 		string 	`json:"status"`
 	CreatedAt 	string 	`json:"created_at"`
 }
+
+func main(){
+	router := gin.Default()
+}
